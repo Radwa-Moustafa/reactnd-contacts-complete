@@ -1,3 +1,29 @@
+// import { useState, useEffect } from "react"; //Manage state
+
+
+// const ImageInput = ({ maxHeight, className, name }) => {
+//   // ...
+
+//   let fileInput;
+
+//   const [value, setValue] = useState("");
+
+//   useEffect(() => {
+//     setCanvas(document.createElement("canvas"));
+//     fileInput.form.addEventListener("reset", handleFormReset);
+
+//     return () => {
+//       if (fileInput) {
+//         fileInput.form.removeEventListener("reset", handleFormReset);
+//       }
+//     };
+//   }, [fileInput]);
+
+//   // ...
+// };
+
+// export default ImageInput;
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
